@@ -1,9 +1,11 @@
+import UiElement from "./pages/UiElement/UiElement";
+import styles from './styles.module.css';
 function App() {
 
-  return (
-    <>
-
-    </>
+return (
+  <div className={styles.container}>
+    <UiElement />
+  </div>
   )
 }
 
