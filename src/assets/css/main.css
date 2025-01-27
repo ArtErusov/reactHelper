@@ -3,12 +3,17 @@
 :root {
   --black: #393939;
   --white: #ffffff;
-  --blue-light: #f3f6fd;
+  --gray: #F3F3F3;
+
+
+
+
+  /* --blue-light: #f3f6fd;
   --blue-medium: #b8b8ff;
   --blue: #5051f9;
   --yellow: #F2EFDD;
   --yellow-rich: #EABA4C;
-  --yellow-important: #FFEBB8;
+  --yellow-important: #FFEBB8; */
 }
 
 * {
@@ -18,3 +23,26 @@
   font-family: 'Comfortaa', sans-serif;
 }
 
+
+.test{
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+}
+
+.mainContainer {
+  border-top: 2px solid var(--black);
+  border-right: 2px solid var(--black);
+  border-left: 2px solid var(--black);
+  border-radius: 14px 14px 0 0;
+  position: relative;
+}
+
+.bottomOfTheCard{
+  height: 40px;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 0 0 14px 14px;
+  text-align: center;
+  padding-top: 10px;
+}
