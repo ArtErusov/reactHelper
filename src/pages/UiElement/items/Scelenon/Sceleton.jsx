@@ -8,19 +8,19 @@ const Sceleton = () => {
 const widthContainer = 163;
 const [isLoading, setIsLoading] = useState(true);
 
-const handleButtonClick = () => {
-  setIsLoading(false);
-  // Тут должна быть загрузка с сервера
-  setTimeout(() => {
-    setIsLoading(true);
-  }, 1000);
-};
+// const handleButtonClick = () => {
+//   setIsLoading(false);
+//   // Тут должна быть загрузка с сервера
+//   setTimeout(() => {
+//     setIsLoading(true);
+//   }, 1000);
+// };
 
 return (
   
   <>
     <div style={{ height: 270, width: widthContainer}} className={styles.mainContainer}>
-      {isLoading ? <ProductСard onButtonClick={handleButtonClick} /> : <SceletonCard />}  
+      {isLoading ? <ProductСard /> : <SceletonCard />}  
     </div>
     <div style={{ width: widthContainer}} className={styles.bottomOfTheCard}>Sceleton</div>
     
