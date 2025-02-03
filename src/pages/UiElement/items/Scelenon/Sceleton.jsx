@@ -1,4 +1,4 @@
-import ProductСard from './ProductСard';
+import ProductСard from '../../../../components/ui/productCard/ProductCard';
 import SceletonCard from './SceletonCard';
 import styles from './styles.module.css';
 import { useState } from 'react';
@@ -19,7 +19,7 @@ const handleButtonClick = () => {
 return (
   
   <>
-    <div style={{ height: 233, width: widthContainer}} className={styles.mainContainer}>
+    <div style={{ height: 270, width: widthContainer}} className={styles.mainContainer}>
       {isLoading ? <ProductСard onButtonClick={handleButtonClick} /> : <SceletonCard />}  
     </div>
     <div style={{ width: widthContainer}} className={styles.bottomOfTheCard}>Sceleton</div>

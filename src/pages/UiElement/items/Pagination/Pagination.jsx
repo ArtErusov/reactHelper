@@ -9,7 +9,7 @@ const widthContainer = 345;
 
 return (
   <>
-    <div style={{ height: 233, width: widthContainer}} className={styles.mainContainer}>
+    <div style={{ height: 260, width: widthContainer}} className={styles.mainContainer}>
 
     </div>
     <div style={{ width: widthContainer}} className={styles.bottomOfTheCard}>Pagination</div>
