@@ -3,13 +3,13 @@ import cardIcon from '../../../assets/img/cardIcon.svg';
 import likeIkon from '../../../assets/img/likeIkon.svg';
 // import { useState } from 'react';
 
-const ProductСard = () => {
+const ProductСard = ({data}) => {
 // const [addToFavorites, setAddToFavorites] = useState(false)
 return (
   <div className={styles.card}>
-    <img className={styles.img} src="https://img.mvideo.ru/Pdb/small_pic/480/30079361b.jpg" alt="Изображение" />
-    <p className={styles.title}>Samsung Galaxy S25</p>
-    <p className={styles.price}>27 459 ₽</p>
+    <img className={styles.img} src={data.img} alt="Изображение" />
+    <p className={styles.title}>{data.text}</p>
+    <p className={styles.price}>{data.price} ₽</p>
     <div className={styles.flex}>
       <button className={styles.btn}>
         <img className={styles.cardIcon} src={cardIcon} alt="" />
