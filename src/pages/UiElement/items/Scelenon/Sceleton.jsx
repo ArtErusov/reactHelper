@@ -20,7 +20,6 @@ const handleButtonClick = () => {
 
 const getRandomValue = () =>  Math.floor(Math.random() * 8);
 
-console.log(getRandomValue())
 return ( 
   <>
     <div style={{ height: 270, width: widthContainer}} className={styles.mainContainer}>
