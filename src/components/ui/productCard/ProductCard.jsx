@@ -1,10 +1,12 @@
 import styles from './styles.module.css';
 import cardIcon from '../../../assets/img/cardIcon.svg';
 import likeIkon from '../../../assets/img/likeIkon.svg';
-// import { useState } from 'react';
+
+//Что можно улучшить
+// 1 с даты я получаю цену без пробелов можно приобразовать ее 
+// 2 сделать состояние и добавить нажат ли иконка избранного или нет
 
 const ProductСard = ({data}) => {
-// const [addToFavorites, setAddToFavorites] = useState(false)
 return (
   <div className={styles.card}>
     <img className={styles.img} src={data.img} alt="Изображение" />
