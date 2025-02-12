@@ -7,7 +7,7 @@ import PaginationButtons from './PaginationButtons';
 const Pagination = () => {
 
 const widthContainer = 345;
-
+// const [currentPage, setCurrentPage] = useState(1);
 
 
 return (
@@ -16,7 +16,7 @@ return (
       <div className={styles.positioning}>
         <ProductСard data={data[0]} />
         <ProductСard data={data[1]} />
-        <PaginationButtons />
+        <PaginationButtons/>
       </div>
     </div>
     <div style={{ width: widthContainer}} className={styles.bottomOfTheCard}>Pagination</div>
