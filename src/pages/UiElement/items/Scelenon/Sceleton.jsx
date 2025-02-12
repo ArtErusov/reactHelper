@@ -28,6 +28,7 @@ return (
       </button>
       <div style={{ margin: 12}}>
         {isLoading ? <ProductСard data={data[getRandomValue()]}/> : <SceletonCard />} 
+        {/* <ProductСard isLoading={isLoading} data={data[getRandomValue()]}/>  */}
        </div>
     </div>
     <div style={{ width: widthContainer}} className={styles.bottomOfTheCard}>Sceleton</div>
